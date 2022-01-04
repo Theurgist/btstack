@@ -254,7 +254,8 @@ int main(int argc, const char * argv[]){
     // config.device_name = "/dev/tty.usbserial-A900K2WS"; // DFROBOT
     // config.device_name = "/dev/tty.usbserial-A50285BI"; // BOOST-CC2564MODA New
     // config.device_name = "/dev/tty.usbserial-A9OVNX5P"; // RedBear IoT pHAT breakout board
-    config.device_name = "/dev/tty.usbserial-A900K0VK"; // CSR8811 breakout board
+    // config.device_name = "/dev/tty.usbserial-A900K0VK"; // CSR8811 breakout board
+    config.device_name = "/dev/tty.usbmodemD5D5237DC25B1"; // BL654 with PTS Firmware
 
     // accept path from command line
     if (argc >= 3 && strcmp(argv[1], "-u") == 0){
