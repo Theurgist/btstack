@@ -1189,5 +1189,6 @@
 
 // manually added
 #define BLUETOOTH_COMPANY_ID_THE_LINUX_FOUNDATION                                        0x05F1
+#define BLUETOOTH_COMPANY_ID_PACKETCRAFT_INC                                             0x07E8
 
 #endif
