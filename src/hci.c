@@ -3734,6 +3734,9 @@ static void hci_state_reset(void){
     hci_stack->le_connecting_state = LE_CONNECTING_IDLE;
     hci_stack->le_connecting_request = LE_CONNECTING_IDLE;
     hci_stack->le_whitelist_capacity = 0;
+#ifdef ENABLE_LE_EXTENDED_ADVERTISING
+    hci_stack->le_periodic_terminate_sync_handle = HCI_CON_HANDLE_INVALID;
+#endif
 #endif
 #ifdef ENABLE_LE_PERIPHERAL
     hci_stack->le_advertisements_state &= ~LE_ADVERTISEMENT_STATE_ACTIVE;
